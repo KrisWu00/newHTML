@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" href="images/icon.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles/style.css" />
+
+  <link rel="stylesheet" type="text/css" href="styles/navBarStyle.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/566e306229.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+
+  <title>Felix Cedric Chung's Webpage</title>
+</head>
+
+<body>
+  <div id="nav-placeholder">
+
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Navigationbar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigationbar</title>
+
+
+    <header class="header">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Wu Yue</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse show" id="navbarNavAltMarkup" style="">
+            <div class="navbar-nav ms-auto mt-2">
+              <a class="nav-link active" aria-current="page" href="index.html#aboutMe">About Me</a>
+              <a class="nav-link" href="index.html#education">Education</a>
+              <a class="nav-link" href="index.html#work">Working</a>
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+
+    <!-- Navbar-->
+  </div>
+
+
+
+
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("navigation.html");
+    });
+  </script>
+  <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+    <section class="section1">
+      <div class="bg-image portrait">
+        <span role="img" aria-label="A portrait of Felix in the background"></span>
+        <div class="h1container">
+          <h1 class="h1Name">
+            Wu Yue <br />
+            Master of Science in Computer Science <br />
+            Norhteastern University
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <section class="section2" id="aboutMe">
+      <div class="aboutMeContainer row">
+        <div class="half-bg-image selfimage col">
+          <div class="imgContainer"></div>
+          <span role="img" aria-label="A portrait of Felix"></span>
+        </div>
+        <div class="aboutMeText col">
+          <h2>About Me</h2>
+          <p>
+            Yue Wu’s academic qualifications are robust. He holds a Master of Science
+            in Computer Science from Northeastern University and a Bachelor of Science
+            in Mathematics, with a minor in Computer Science Engineering from The Ohio
+            State University. His extensive knowledge in programming languages such as Java,
+            Python, JavaScript, SQL, and frameworks like SpringBoot, AWS, GCP, and others,
+            equips him with the technical expertise required for this position.
+
+
+          </p>
+          <br>
+          <p>
+            During his internships, Yue demonstrated remarkable expertise in database management
+            and distributed systems. He constructed APIs utilizing databases such as MySQL, NoSQL,
+            Redis, Oracle, MongoDB, Elasticsearch, and more. His work on search optimization involved
+            integrating Elasticsearch to reduce search time and constructing distributed locks based on Redis.
+            Meanwhile, at Immorna Biotechnology Company, he played a key role in the selection and implementation
+            of image storage solutions, effectively handling distributed file systems. These experiences not only
+            underline Yue’s proficiency in database technologies but also highlight his ability to design and implement
+            complex distributed systems, aligning well with the demands of modern software architecture.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="contactSection" id="education">
+      <div class="eduContainer row">
+        <div class="two-img">
+          <div class="eduimage1 col">
+            <div class="imgContainer">
+            </div>
+            <span role="img"></span>
+          </div>
+          <div class="eduimage2 col">
+            <div class="imgContainer">
+            </div>
+            <span role="img"></span>
+          </div>
+
+        </div>
+        <div class="eduText col">
+          <h2>Education</h2>
+          <h3>Academic Experience</h3>
+          <p>
+          <h4>Norhteastern University</h4>
+          <div>Master of Science in Computer Science</div>
+          <div>GPA: 4.0 out of 4.0 </div>
+          <div>Date: 01/2023 -- 12/2024(Expected)</div>
+          </p>
+          <br />
+          <p>
+          <h4>The Ohio State University </h4>
+          <div>Bachelor of Science in Applied Mathematics, Minor in Computer Science </div>
+          <div>Magma Cum Laude </div>
+          <div>Data: 08/2018 -- 05/2021</div>
+
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contactSection" id="work">
+      <div class="WorkContainer row">
+        <div class="WorkText col">
+          <h2>Working Experience</h2>
+          <p>
+          <div>Company: New Oriental Education & Tech Inc.</div>
+          <div>Position: Software Development Engineer Intern</div>
+          <div>Date: 05/2022 -- 12/2022</div>
+          <div>Responsibility:</div>
+          <div>
+            <ul>
+              <li>Engaged in building microservices and Nacos registry based on SpringBoot and introduced SpringCloud
+                Gateway to route requests through load balancing algorithm; Established SDK toolkit to generalize
+                message processing. </li>
+              <li>Constructed videos uploading API based on minIO and distributed file system, achieved video upload,
+                download, and merge through SSH File Transfer Protocol, and optimized Service transaction for faster
+                release of database link.</li>
+              <li>Performed permission control and authorization for backend system based on Spring Security; Configured
+                and encrypted anonymously accessible resources to create, read, update and delete permission data and
+                user data.</li>
+              <li>Completed distributed lock based on Redis to avoid invalid cache hotspot, cache penetration, and cache
+                avalanche.</li>
+            </ul>
+          </div>
+          </p>
+
+          <p>
+          <div>Company: Immorna Biotechnology Company</div>
+          <div>Position: Software Development Engineer Intern</div>
+          <div>Date: 08/2021 -- 05/2022</div>
+          <div>Responsibility:</div>
+          <div>
+            <ul>
+              <li>Participated in the mobile app development to allow the user make a self-appointment via cell phone,
+                send the verification code via SMS, display the appointment information and reminder.</li>
+              <li>Involved in the selection and implementation of image storage solutions: utilized the SDK toolkit
+                provided by Cloud Storage for file upload and deletion; Distinguished and cleaned useless images
+                regularly to free up disk space.</li>
+              <li>Integrated Elasticsearch to solve the slowdown of the fuzzy search interface due to the amount of
+                data; Checked the sql index to see if there are circular requests and split the complex multi-connection
+                sql to reduce the search time.</li>
+              <li>Designed and developed Service implementation class to check if the appointment is full, repeated, or
+                successful. Generated a static page for mobile via ReactJS and created the property file to reduce
+                database access pressure.</li>
+            </ul>
+          </div>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <br />
+
+
+    <section class="contactSection lastSec" id="contact">
+      <div class="row">
+        <div class="contactContainer col-md-4 col-sm-12">
+          <h2>Contact Info</h2>
+          <div class="contactInfoContainer">
+            <address>
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                </svg>
+                <a>3355 Octavius Dr. Santa Clara, CA</a>
+              </p>
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                </svg>
+                <a href="mailto:wuyue519416@gmail.com">
+                  wuyue519416@gmail.com
+                </a>
+              </p>
+              <p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                  <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                </svg>
+                <a>+1(667)786-8068</a>
+              </p>
+            </address>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </div>
+
+  <script src="scripts/scroll.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
